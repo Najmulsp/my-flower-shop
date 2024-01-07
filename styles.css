@@ -72,8 +72,78 @@ height: 30px
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 .main-menu .parent{
+   padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+   box-sizing: border-box;
+   padding: 5px;
+}
+.main-menu h1{
+    color: #272727;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.main-menu .parent .child1{
+   
+    
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border: 5px solid white;
+   
+}
+.main-menu .parent .child1 img{
+    width: 310px;
+height: 428px;
+}
+.main-menu .parent .child2{
+   
+    border: 5px solid white;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.main-menu .parent .child2 img{
+    width: 310px;
+height: 428px;
+}
+.main-menu .parent .child3{
+    border: 5px solid white;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.main-menu .parent .child3 img{
+    width: 310px;
+height: 428px;
+}
+/*  */
+.main-menu2 .emoji{
+    height: 100%;
+    width: 75%;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 20PX 50PX;
+    margin-left: 95PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-menu2 .emoji .hold1{
+   
+    text-align: center;
+    
+}
+.main-menu2 .emoji .hold2{
+   
+    text-align: center;
+    
+}
+.main-menu2 .emoji .hold3{
+   
+    text-align: center;
+    
 }
